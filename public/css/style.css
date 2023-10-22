@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+   background-color: #E3E9FF;
+   display: flex;
+   justify-content: center;
+   padding-top: 4rem;
+   height: 100vh;
+   position: relative;
+}
+.box h1{
+font-size: 2rem;
+color: #fff;
+padding: 1rem 10rem;
+text-align: center;
+background-color: #b366ff;
+margin-bottom: 2rem;
+font-weight: 700;
+border-radius: 1rem;
+}
+.tasks{
+    padding: 3rem 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.tasks p{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+    color: #595959;
+    margin-left: 1rem;
+}
+form{
+    position: relative;
+}
+.addnew{
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5rem;
+    padding: 1rem 2rem;
+    background-color: #b366ff;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 2rem;
+    outline: none;
+    text-align: center;
+    transition: 1s;
+}
+.addnew:hover{
+    cursor: pointer;
+    background-color: #dd99ff;
+}
+.task{
+    display: flex;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+  }
+  input[type=submit]{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    background-color: #b366ff;
+    color: #fff;
+    border-radius: .4rem;
+  }
+  .todo-item.completed {
+    text-decoration: line-through;
+}
+
+  
